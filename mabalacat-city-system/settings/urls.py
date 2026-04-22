@@ -32,4 +32,5 @@ urlpatterns = [
     path('api/hr/', include('hr_records_management.urls')),
     path('api/recruitment/', include('recruitment_selection_placement.urls')),
     path('api/auth/', include('auth_app.urls')),
+    path('api/shared/', include('shared.urls'))
 ]
